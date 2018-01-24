@@ -66,7 +66,7 @@ We intend to use “BLEU metric”, which is widely used by machine translation 
 ## Limitations and Conclusion: 
 There are few limitations of this model. This doesn’t do detailed object recognition. Originality is a problem too. The model tries to frame sentences based on words found in training set alone. The captions are generated only based on the captions it gets trained on and the features that are extracted from the images. Even MSCOCO dataset isn’t sufficient to generalize the solution to any new image unseen by the network. In MSCOCO dataset, there are a lot of giraffe’s and most of the giraffes are close to trees in their natural habitat. If we input an image with a tree alone, the model outputs “A giraffe standing next to tree”, since the model has associated giraffe and tree to be often together – based on the dataset it is provided with.
   
-![alt text](https://github.com/vinaybysani/Image-Captioning-System--Deep-learning/blob/master/Images/9.png)
+![alt text](https://github.com/vinaybysani/Image-Captioning-System--Deep-learning/blob/master/Images/9.jpg)
 The rise of general artificial intelligence relies on understanding and integrating cross domains to create a map of the world as humans do. The image captioning generator is a great framework to combine language and image models for a single task. The visual features are mapped to semantics and this is close to how animals and humans perceive the world 
 
 ## References:
